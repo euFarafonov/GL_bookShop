@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BookShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header_wrap clearfix container">
+        <div class="header_left">
+            <a class="header_logo js_clear_storage" href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <div class="header_slogan">Books library</div>
+        </div>
+        
+        <div class="header_right">
+            <div class="header_contact">
+                <div>+38-067-111-11-11
+                <br>+38-050-111-11-11</div>
+                <div>email@gmail.com</div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main container">
+    <aside id="aside" class="aside">
+        <ul class="nav" id="nav">
+            <li>
+                <div class="nav_header js_home">Books catalog</div>
+            </li>
+            <li id="authors"></li>
+            <li id="genres"></li>
+        </ul>
+    </aside>
+    
+    <article id="content" class="content"></article>
+</div>
+
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

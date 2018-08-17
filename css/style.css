@@ -1,0 +1,199 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    outline: 0px solid red;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.link {
+    cursor: pointer;
+    color: blue;
+}
+
+/* ============================== HEADER ============================== */
+.header {
+    border-bottom: 1px solid #C9D3D8;
+    margin-bottom: 20px;
+}
+    
+    .header_wrap {
+        padding: 10px 0;
+    }
+
+        .header_left {
+            float: left;
+            width: 200px;
+        }
+        
+            .header_logo {
+                display: block;
+                cursor: pointer;
+            }
+            
+                .header_logo img {
+                    display: block;
+                    width: 100%;
+                }
+                
+            .header_slogan {
+                font-weight: 600;
+                font-size: 16px;
+                color: #888;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                text-align: center;
+            }
+            
+        .header_right {
+            float: right;
+            width: 300px;
+        }
+        
+            .header_contact {
+                padding-top: 20px;
+            }
+            
+                .header_contact div {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #282828;
+                    padding-left: 42px;
+                    position: relative;
+                    margin-bottom: 10px;
+                }
+
+/* ============================== MAIN ============================== */
+.main {
+    font-size: 0;
+    background-color: #F6F5F3;
+}
+
+/* ============================== ASIDE ============================== */
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+    .nav {
+        font-size: 18px;
+    }
+    
+        .nav_header {
+            padding: 5px 0 5px 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        
+        .nav_header:hover {
+            text-decoration: underline;
+        }
+        
+        .nav_inner {
+            padding-left: 20px;
+            box-sizing: border-box;
+            display: none;
+        }
+        
+            .nav_inner li {
+                color: #336891;
+                cursor: pointer;
+            }
+            
+            .nav_inner li:hover {
+                text-decoration: underline;
+            }
+            
+            .nav_inner .nav_active {
+                color: #ff0000;
+            }
+  
+        .nav_inner_active {
+            display: block;
+        }
+                   
+
+/* ============================== CONTENT ============================== */
+.content {
+    display: inline-block;
+    vertical-align: top;
+    width: 970px;
+    background-color: #fff;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+    .content_wrap {
+        font-size: 0;
+        box-sizing: border-box;
+    }
+    
+        .not_info {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .books_table {
+            color: #333333;
+            font-size: 18px;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        
+        .books_table td,
+        .books_table th {
+            border: 1px solid #eee;
+            padding: 10px 0;
+        }
+        
+/* ============================== PAGE BOOK ============================== */
+.book_wrap {
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+    .book_wrap div {
+        color: #336891;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .book_order {
+        color: #fff;
+        background-color: #3AE2CE;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 10px 15px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .book_order:hover {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+    }

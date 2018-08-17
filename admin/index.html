@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Admin panel BookShop</title>
+    <link rel="stylesheet" href="css/style_admin.css">
+</head>
+<body>
+<div class="wrapper">
+	<header class="header clearfix">
+		<span class="header_logo">my-<span>shop</span>-admin</span>
+        <div class="header_wrap clearfix">
+            <div class="header_left"></div>
+            <div class="header_right">
+                <a href="http://bookshop.com" target="_blank">BookShop</a>
+            </div>
+        </div>
+	</header>
+    
+    <div class="page_wrapper">
+        <div id="aside" class="aside">
+        	<ul class="aside_nav">
+        		<li class="js_aside" data-page="books">Books catalog</li>
+                <li class="js_aside" data-page="authors">Authors</li>
+                <li class="js_aside" data-page="genres">Genres</li>
+            </ul>
+        </div>
+        
+        <div id="content" class="content"></div>
+    </div>
+<script src="js/view.js"></script>
+<script src="js/model.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
